@@ -19,11 +19,14 @@
   	<ul class="flex-container">
     @foreach($listings as $listing)
     <li class="flex-item-user">
+     <a class="item-a" href="#modal{{ $listing->id }}">More info
       @if($listing->image)
         <img class="user-page-image" src="/uploads/{{ $listing->image }}" alt style="width:200px; height:150px;">
+
       @else
-        <p>No current listings! why dont you list something?</p>
-      @endif    
+
+      @endif
+      </a>   
   	</li>
 
     @endforeach

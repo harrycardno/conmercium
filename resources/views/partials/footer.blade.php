@@ -1,4 +1,4 @@
 <footer>
-	Copyright Conmercium ©
+
 </footer>
 

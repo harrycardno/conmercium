@@ -24,6 +24,11 @@
 				)) !!}
 			</div>
 
+			<div class="form-group">
+					{!! Form::label('price', 'Price') !!}
+					{!! Form::number('Price', null, ['class' => 'form']) !!}
+				</div>
+
 			{!! Form::submit() !!}
 
 

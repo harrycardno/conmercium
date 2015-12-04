@@ -10,6 +10,7 @@
 	@include('partials.header')
 	@include('partials.user-page')
 	@include('partials.upload-listing')
+	@include('partials.item')
 	@include('partials.footer')
 <div class="push"></div>
 </div>
@@ -27,6 +28,10 @@
 	</main>
 
 	<script type="text/javascript" src="/components/jquery/dist/jquery.min.js"></script>
+	<script src="jquery.validate.js"></script>
+	<script>
+	$("form").validate();
+	</script>
 
 	<script type="text/javascript" src="/dist/js/overlay.js"></script>
 
